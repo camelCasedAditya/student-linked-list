@@ -6,6 +6,7 @@ using namespace std;
 
 class Node {
  public:
+  // Initialize functions for Node class
   Node();
   ~Node();
   void setValue(Student* newStudent);
@@ -13,6 +14,7 @@ class Node {
   void setNext(Node* newNext);
   Node* getNext();
  private:
+  // Node object attributes
   Student* value;
   Node* next;
 };
